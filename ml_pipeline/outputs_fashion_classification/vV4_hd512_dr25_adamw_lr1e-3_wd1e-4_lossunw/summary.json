@@ -1,0 +1,16 @@
+{
+  "config_name": "multihead_v4_small",
+  "model_variant": "V4",
+  "num_parameters": 4110507,
+  "loss_config": "Unweighted (no weights)",
+  "config": {
+    "hidden_dim": 512,
+    "dropout": 0.25,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001
+  },
+  "epochs_trained": 26,
+  "final_train_loss": 0.0303525490349789,
+  "final_val_loss": 0.034863459262996915
+}

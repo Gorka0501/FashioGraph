@@ -1,0 +1,16 @@
+{
+  "config_name": "baseline_v1",
+  "model_variant": "V1",
+  "num_parameters": 1991340,
+  "loss_config": "Standard Weighted (current)",
+  "config": {
+    "hidden_dim": 512,
+    "dropout": 0.2,
+    "optimizer": "adamw",
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0001
+  },
+  "epochs_trained": 167,
+  "final_train_loss": 0.141762188183139,
+  "final_val_loss": 0.13951703891158104
+}

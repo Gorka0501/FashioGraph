@@ -1,0 +1,16 @@
+{
+  "config_name": "deeper_v2_large",
+  "model_variant": "V2",
+  "num_parameters": 4908332,
+  "loss_config": "Light Weighted (reduced)",
+  "config": {
+    "hidden_dim": 768,
+    "dropout": 0.3,
+    "optimizer": "adamw",
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0001
+  },
+  "epochs_trained": 150,
+  "final_train_loss": 0.1291096215598456,
+  "final_val_loss": 0.16348158359527587
+}

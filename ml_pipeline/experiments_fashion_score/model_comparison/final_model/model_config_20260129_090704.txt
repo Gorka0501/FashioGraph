@@ -1,0 +1,36 @@
+============================================================
+FINAL HGNN MODEL CONFIGURATION
+============================================================
+
+Timestamp: 20260129_090704
+Trial: 22
+Experiment: hgnn_trial22_h256_hd32_nl1_ah4_lr1.08e-03_wd1.79e-04_dr30
+
+ARCHITECTURE:
+  Input Dimension:     768
+  Hidden Dimension:    256
+  HGNN Dimension:      32
+  HGNN Layers:         1
+  Attention Heads:     4
+  Dropout:             0.3
+
+TRAINING:
+  Learning Rate:       0.001082
+  Weight Decay:        0.000179
+  Batch Size:          1024
+  Epochs (max):        100
+  Epochs (actual):     32
+  Early Stop Patience: 15
+  Duration:            36.94 min
+
+PERFORMANCE:
+  Test F1:             0.8702
+  Test ROC-AUC:        0.9433
+  Test Accuracy:       0.8745
+  Test Precision:      0.9012
+  Test Recall:         0.8411
+
+GENERALIZATION:
+  Train-Val Gap:       +5.60%
+  Val-Test Gap:        +4.28%
+  Train-Test Gap:      +9.88%

@@ -1,0 +1,16 @@
+{
+  "config_name": "multihead_v4_large",
+  "model_variant": "V4",
+  "num_parameters": 8484011,
+  "loss_config": "Class Weight Only",
+  "config": {
+    "hidden_dim": 768,
+    "dropout": 0.3,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 5e-05
+  },
+  "epochs_trained": 135,
+  "final_train_loss": 0.15196878464925684,
+  "final_val_loss": 0.16046921342611312
+}

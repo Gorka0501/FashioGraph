@@ -1,0 +1,16 @@
+{
+  "config_name": "taskspec_v3_small",
+  "model_variant": "V3",
+  "num_parameters": 2281644,
+  "loss_config": "Standard Weighted (current)",
+  "config": {
+    "hidden_dim": 512,
+    "dropout": 0.2,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001
+  },
+  "epochs_trained": 97,
+  "final_train_loss": 0.16947959291419304,
+  "final_val_loss": 0.16518423855304717
+}

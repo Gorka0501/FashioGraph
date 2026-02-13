@@ -1,0 +1,48 @@
+{
+  "name": "gnn_sparse_h128_g64_l2_h4_dr20_adamw_lr1e-4_wd1e-5_20260121_153142",
+  "timestamp": "20260121_153142",
+  "best_val_loss": 0.29766472832144414,
+  "best_metrics": {
+    "val_loss": 0.29766472832144414,
+    "mse": 0.08840240826754334,
+    "roc_auc": 0.9508846033999238,
+    "accuracy": 0.8829067372756693,
+    "f1": 0.8814770696843359
+  },
+  "model_config": {
+    "type": "GNNOutfitScorer",
+    "in_dim": 768,
+    "hidden_dim": 128,
+    "gnn_dim": 64,
+    "num_gnn_layers": 2,
+    "attn_heads": 4,
+    "dropout": 0.2,
+    "note": "Graph Neural Network with sparse adjacency matrices"
+  },
+  "optimizer_config": {
+    "type": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 1e-05,
+    "betas": [
+      0.9,
+      0.999
+    ]
+  },
+  "training_config": {
+    "epochs": 50,
+    "batch_size": 1024,
+    "early_stop_patience": 10,
+    "early_stop_min_delta": 0.0001
+  },
+  "graph_config": {
+    "adjacency_matrix": {
+      "shape": [
+        202110,
+        202110
+      ],
+      "edges_train": 695034,
+      "edges_val": 76534,
+      "edges_test": 661892
+    }
+  }
+}

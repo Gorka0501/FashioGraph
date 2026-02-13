@@ -1,0 +1,48 @@
+{
+  "name": "hgnn_hypergraph_h128_g64_l2_h4_dr20_adamw_lr1e-4_wd1e-5_20260121_153142",
+  "timestamp": "20260121_153142",
+  "best_val_loss": 0.28067825313314476,
+  "best_metrics": {
+    "val_loss": 0.28067825313314476,
+    "mse": 0.08063695834624209,
+    "roc_auc": 0.9608465187134299,
+    "accuracy": 0.89997057958223,
+    "f1": 0.8990498812351544
+  },
+  "model_config": {
+    "type": "HGNNOutfitScorer",
+    "in_dim": 768,
+    "hidden_dim": 128,
+    "hgnn_dim": 64,
+    "num_hgnn_layers": 2,
+    "attn_heads": 4,
+    "dropout": 0.2,
+    "note": "Hypergraph Neural Network with sparse incidence matrices"
+  },
+  "optimizer_config": {
+    "type": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 1e-05,
+    "betas": [
+      0.9,
+      0.999
+    ]
+  },
+  "training_config": {
+    "epochs": 50,
+    "batch_size": 1024,
+    "early_stop_patience": 10,
+    "early_stop_min_delta": 0.0001
+  },
+  "hypergraph_config": {
+    "incidence_matrix": {
+      "shape": [
+        202110,
+        30591
+      ],
+      "hyperedges_train": 30591,
+      "hyperedges_val": 3399,
+      "hyperedges_test": 30290
+    }
+  }
+}

@@ -1,0 +1,313 @@
+index,name
+0,Balmain
+1,High-waisted pants
+2,High rise pants
+3,Short shorts
+4,High-waisted shorts
+5,High rise shorts
+6,Christian Louboutin
+7,Patent leather shoes
+8,Open toe shoes
+9,Dolce&Gabbana
+10,Long sleeve tops
+11,Brown pants
+12,Cropped shirts
+13,Blue shirt
+14,Crop tops
+15,Rayon shirts
+16,Converse
+17,Blue shoes
+18,Platform shoes
+19,Embroidered top
+20,Cashmere sweater
+21,Shirt sweater
+22,Jumper shirt
+23,Suede shoes
+24,Platform pumps
+25,Heel pump
+26,Heeled ankle boots
+27,Platform booties
+28,Skinny pants
+29,Legging pants
+30,Jimmy Choo
+31,Heeled sandals
+32,Skinny jeans
+33,Zip jeans
+34,Zipper jeans
+35,Mid rise jeans
+36,Laced up flats
+37,Knit sweater
+38,Pullover sweater
+39,Leather shoes
+40,Laced up shoes
+41,Off-shoulder crop tops
+42,Off shoulder shirt
+43,Pointy-toe flats
+44,Green shoes
+45,Pointed toe flats
+46,Flat shoes
+47,Short skirt
+48,Long skirts
+49,Long-sleeve shirt
+50,Shirt blouse
+51,Ballet flats
+52,Button up shirts
+53,Chunky-heel boots
+54,Short boots
+55,Elastic waistband pants
+56,High heeled footwear
+57,Ankle strap sandals
+58,Open toe sandals
+59,Sleeveless shirts
+60,White tank top
+61,Cotton shirts
+62,Shirt top
+63,Woolen sweater
+64,White top
+65,Turtle neck sweater
+66,Yves Saint Laurent
+67,Silk shirt
+68,Leather sole shoes
+69,Canvas shoes
+70,Circle skirts
+71,Flared skirt
+72,Skater skirts
+73,White skirt
+74,Embroidered skirt
+75,Stretch pants
+76,A line skirt
+77,Pleated skirt
+78,Midi skirts
+79,Long sleeve blouse
+80,White sneakers
+81,Low top
+82,Blue skirts
+83,Zipper pants
+84,Blue pants
+85,Stripe skirt
+86,Gucci
+87,Stripe sweater
+88,A-line skirts
+89,High-waist skirt
+90,High waisted skirts
+91,Black shoes
+92,Kohl shoes
+93,Grey shirt
+94,Stripe shirt
+95,Heeled ankle booties
+96,Lace-up bootie
+97,High heel stilettos
+98,Wrap skirt
+99,Slip-on shoes
+100,Black strap sandals
+101,Summer sandals
+102,Strappy sandals
+103,Monk-strap shoes
+104,H&M
+105,Blue shorts
+106,Denim shorts
+107,Jean shorts
+108,Black flat shoes
+109,Pink pumps
+110,Flared skirts
+111,Cotton skirts
+112,Pink top
+113,Long shirts
+114,Red top
+115,V-neck shirt
+116,Embellished top
+117,Flats sandals
+118,Buckle sandals
+119,Rubber sole shoes
+120,Pencil skirts
+121,Patterned skirts
+122,Print skirt
+123,Miu Miu
+124,Ballerina shoes
+125,No sleeve shirt
+126,Floral shirt
+127,Brown shirts
+128,Ruffle blouse
+129,White shorts
+130,Short sleeve shirts
+131,Green shirt
+132,Ripped shorts
+133,Distressed shorts
+134,Grey sweater
+135,Print shirts
+136,Pattern shirt
+137,Red skirt
+138,Ruffle skirt
+139,Black heeled sandals
+140,Embellished sandals
+141,Leather sandals
+142,Block heel shoes
+143,Cotton shorts
+144,Grey shoes
+145,Crew neck shirt
+146,Oversized shirts
+147,Blue jeans
+148,Plaid shirts
+149,Slim fit shirts
+150,Purple top
+151,Long-sleeve crop tops
+152,Oversized sweaters
+153,Wide leg pants
+154,Loose shirts
+155,See through shirt
+156,Collared shirt
+157,Strap sandals
+158,Metallic sandals
+159,Heels stilettos
+160,Calf length skirts
+161,Wedge espadrilles
+162,Espadrille sandals
+163,Platform sandals
+164,Red sandals
+165,Platform wedge sandals
+166,Flat heel sandals
+167,Crop t shirt
+168,White shirt
+169,Distressed jeans
+170,Boyfriend jeans
+171,Ripped jeans
+172,Pointy-toe pumps
+173,Pointed toe pumps
+174,Polish shoes
+175,Slim fitted pants
+176,Striped pants
+177,Tailored pants
+178,Zipper shorts
+179,High rise jeans
+180,High-waisted jeans
+181,Cropped jeans
+182,Straight leg jeans
+183,Jersey shirt
+184,Black sneakers
+185,Ankle boots
+186,Leather skirts
+187,Black pumps
+188,Pink t shirt
+189,Elastic waist skirt
+190,Ruffle top
+191,Cami top
+192,White pants
+193,Blue sandals
+194,Black ankle bootie
+195,Bootie boots
+196,Mid-calf skirts
+197,Oxford shoes
+198,Leather bootie
+199,Stiletto pumps
+200,Embroidered shirts
+201,Hooded sweatshirt
+202,Sweatshirt hoodies
+203,Stilettos shoes
+204,Low rise jeans
+205,Slim fit jeans
+206,Denim jeans
+207,Black sandals
+208,Zip skirt
+209,Zipper skirt
+210,Crewneck sweaters
+211,Flutter-sleeve top
+212,Maxi skirts
+213,Floor length skirt
+214,White sandals
+215,Sheer top
+216,Striped top
+217,Velvet shoes
+218,Embroidered shoes
+219,Floral skirt
+220,Cropped pants
+221,Mule shoes
+222,Star sneakers
+223,NIKE
+224,Stretch jeans
+225,5 pocket jeans
+226,Layered tops
+227,Cropped tank top
+228,Pink skirt
+229,Glitter shoes
+230,Adidas
+231,Cable-knit sweater
+232,Aquazzura
+233,Lace up sandals
+234,STELLA McCARTNEY
+235,Metallic shoes
+236,Knee length skirts
+237,T shirts
+238,Green skirt
+239,Pink pants
+240,Block-heel shoes
+241,Sleeveless tops
+242,Pink sandals
+243,Peep toe sandals
+244,Short sleeve tops
+245,Brown shoes
+246,White flats
+247,Braided sandals
+248,Blue top
+249,Vans
+250,Brown skirt
+251,Low-heel boots
+252,J.Crew
+253,Summer tops
+254,Bralet tops
+255,Suede bootie
+256,High heel booties
+257,Red pumps
+258,Floral tops
+259,Sleeve top
+260,Vegan shoes
+261,Ankle strap pumps
+262,Valentino shoes
+263,Flat sandals
+264,White jeans
+265,Thong sandals
+266,Summer shorts
+267,Lacing sneakers
+268,Chunky-heel sandals
+269,Gladiator sandal
+270,Destroyed jeans
+271,River Island
+272,Green top
+273,Laced up boots
+274,Camisole tops
+275,Tory Burch
+276,Leather booties
+277,Black lace up boots
+278,High-waisted skinny jeans
+279,Swimsuits bikini
+280,Polyester shirt
+281,Cami tank
+282,Ripped skinny jeans
+283,Print t shirts
+284,T-strap sandals
+285,Yellow top
+286,Block heel booties
+287,Bathing suits bikini
+288,Pink shoes
+289,High heel sandals
+290,Pleated pants
+291,Military boots
+292,Off-the-shoulder blouses
+293,Floral shoes
+294,Evening shoes
+295,Button-fly jeans
+296,Zipper boots
+297,Halter tops
+298,Button shirt
+299,Steve Madden
+300,Knee-high boots
+301,Over-knee boots
+302,Pointy toe booties
+303,Gianvito Rossi
+304,Giuseppe Zanotti
+305,Asymmetrical skirts
+306,Destructed jeans
+307,Wedge shoes
+308,Sleeveless blouse
+309,Thigh-high boots
+310,Loafer shoes
+311,Denim skirt

@@ -1,0 +1,65 @@
+{
+  "model_name": "HGNN",
+  "experiment_name": "hgnn_trial28_h64_hd32_nl4_ah1_lr3.96e-03_wd1.92e-04_dr50",
+  "trial_number": 28,
+  "timestamp": "20260122_041634",
+  "hyperparameters": {
+    "hidden_dim": 64,
+    "hgnn_dim": 32,
+    "num_hgnn_layers": 4,
+    "attn_heads": 1,
+    "learning_rate": 0.003961867790406584,
+    "weight_decay": 0.00019212959255386378,
+    "dropout": 0.5,
+    "trial": 28,
+    "name": "hgnn_trial28_h64_hd32_nl4_ah1_lr3.96e-03_wd1.92e-04_dr50"
+  },
+  "model_config": {
+    "input_dim": 768,
+    "hidden_dim": 64,
+    "hgnn_dim": 32,
+    "num_hgnn_layers": 4,
+    "attn_heads": 1,
+    "dropout": 0.5
+  },
+  "training_config": {
+    "batch_size": 1024,
+    "max_epochs": 25,
+    "learning_rate": 0.003961867790406584,
+    "weight_decay": 0.00019212959255386378,
+    "patience": 5,
+    "min_delta": 0.0001,
+    "optimizer": "AdamW"
+  },
+  "data_info": {
+    "train_samples": 30591,
+    "val_samples": 3399,
+    "train_nodes": 202110,
+    "val_nodes": 202110,
+    "test_nodes": 202110
+  },
+  "best_validation": {
+    "val_loss": 0.6920381765675636,
+    "val_f1": 0.36675951717734445,
+    "val_roc_auc": 0.6464411591593671,
+    "accuracy": 0.598705501618123,
+    "precision": 0.0,
+    "recall": 0.0,
+    "mse": 0.24944551542768437
+  },
+  "test_performance": {
+    "model": "hgnn_trial28_h64_hd32_nl4_ah1_lr3.96e-03_wd1.92e-04_dr50",
+    "accuracy": 0.5183558930340046,
+    "precision": 0.7951167728237792,
+    "recall": 0.04945526576427864,
+    "f1": 0.09311866724684528,
+    "roc_auc": 0.4787745596899173,
+    "mse": 0.24998220801353455,
+    "tp": 749,
+    "fp": 193,
+    "tn": 14952,
+    "fn": 14396
+  },
+  "training_epochs": 19,
+  "duration_seconds": 997.841822385788
+}

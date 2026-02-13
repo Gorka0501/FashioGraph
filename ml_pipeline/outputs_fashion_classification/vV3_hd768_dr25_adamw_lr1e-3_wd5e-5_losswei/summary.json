@@ -1,0 +1,16 @@
+{
+  "config_name": "taskspec_v3_large",
+  "model_variant": "V3",
+  "num_parameters": 4109996,
+  "loss_config": "Heavy Weighted (increased)",
+  "config": {
+    "hidden_dim": 768,
+    "dropout": 0.25,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 5e-05
+  },
+  "epochs_trained": 138,
+  "final_train_loss": 0.1977528804586134,
+  "final_val_loss": 0.1519347169995308
+}

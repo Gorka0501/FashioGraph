@@ -1,0 +1,16 @@
+{
+  "config_name": "multihead_v4_fastlr",
+  "model_variant": "V4",
+  "num_parameters": 4110507,
+  "loss_config": "Standard Weighted (current)",
+  "config": {
+    "hidden_dim": 512,
+    "dropout": 0.25,
+    "optimizer": "adamw",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001
+  },
+  "epochs_trained": 128,
+  "final_train_loss": 0.17374654709534487,
+  "final_val_loss": 0.1592750370502472
+}

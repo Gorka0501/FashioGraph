@@ -1,0 +1,36 @@
+{
+  "name": "base_feedforward_h256_d64_h4_dr20_adamw_lr1e-3_wd1e-5_20260121_153142",
+  "timestamp": "20260121_153142",
+  "best_val_loss": 0.5380829670528132,
+  "best_metrics": {
+    "val_loss": 0.5380829670528132,
+    "mse": 0.18218849429976083,
+    "roc_auc": 0.7971249523941419,
+    "accuracy": 0.7010885554574875,
+    "f1": 0.706866705135603
+  },
+  "model_config": {
+    "type": "BaseModel",
+    "in_dim": 768,
+    "hidden_dim": 256,
+    "base_dim": 64,
+    "attn_heads": 4,
+    "dropout": 0.2,
+    "note": "Simple feedforward baseline with attention pooling"
+  },
+  "optimizer_config": {
+    "type": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "betas": [
+      0.9,
+      0.999
+    ]
+  },
+  "training_config": {
+    "epochs": 50,
+    "batch_size": 1024,
+    "early_stop_patience": 10,
+    "early_stop_min_delta": 0.0001
+  }
+}
